@@ -64,21 +64,24 @@ h1 {
     color: var(--primary-color);
 }
 
-.lotto-machine {
+.menu-recommender {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.lotto-numbers {
+.menu-display {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    min-height: 100px;
     margin-bottom: 2rem;
 }
 
-#generate-btn {
+#recommend-btn {
     padding: 1rem 2rem;
     font-size: 1.2rem;
     font-weight: bold;
@@ -91,12 +94,12 @@ h1 {
     box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3);
 }
 
-#generate-btn:hover {
+#recommend-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 12px rgba(0, 123, 255, 0.4);
 }
 
-lotto-ball {
+.menu-item {
     opacity: 0;
     animation: fadeIn 0.5s ease-in-out forwards;
 }
