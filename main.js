@@ -2,12 +2,10 @@
 class LottoBall extends HTMLElement {
     constructor() {
         super();
-        const shadow = this.attachShadow({ mode: 'open' });
-        const number = this.getAttribute('number');
+        this.shadow = this.attachShadow({ mode: 'open' });
 
-        const ball = document.createElement('div');
-        ball.classList.add('ball');
-        ball.textContent = number;
+        this.ball = document.createElement('div');
+        this.ball.classList.add('ball');
 
         const style = document.createElement('style');
         style.textContent = `
@@ -26,8 +24,18 @@ class LottoBall extends HTMLElement {
             }
         `;
 
-        shadow.appendChild(style);
-        shadow.appendChild(ball);
+        this.shadow.appendChild(style);
+        this.shadow.appendChild(this.ball);
+    }
+
+    static get observedAttributes() {
+        return ['number'];
+    }
+
+    attributeChangedCallback(name, oldValue, newValue) {
+        if (name === 'number') {
+            this.ball.textContent = newValue;
+        }
     }
 }
 
@@ -36,6 +44,21 @@ customElements.define('lotto-ball', LottoBall);
 
 const generateBtn = document.getElementById('generate-btn');
 const lottoNumbersContainer = document.getElementById('lotto-numbers');
+const themeToggleBtn = document.getElementById('theme-toggle-btn');
+const body = document.body;
+
+themeToggleBtn.addEventListener('click', () => {
+    body.classList.toggle('dark-theme');
+    if (body.classList.contains('dark-theme')) {
+        localStorage.setItem('theme', 'dark-theme');
+    } else {
+        localStorage.removeItem('theme');
+    }
+});
+
+if (localStorage.getItem('theme')) {
+    body.classList.add(localStorage.getItem('theme'));
+}
 
 generateBtn.addEventListener('click', () => {
     lottoNumbersContainer.innerHTML = '';
