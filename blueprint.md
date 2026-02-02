@@ -19,3 +19,4 @@ This is a simple web application that recommends a random dinner menu. It's buil
 *   **CSS Styling:** Adjust the styling for the new menu recommender.
 *   **JavaScript Logic:** Implement the JavaScript logic to randomly pick a dinner menu and display it.
 *   **GitHub Deployment:** Commit the changes and prepare for deployment.
+*   **Formspree Integration:** Add an affiliate inquiry form using Formspree to `index.html`.
