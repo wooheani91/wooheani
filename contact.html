@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="오늘 뭐 먹지? 문의하기 - 사이트 이용 관련 문의나 제안 사항을 보내주세요.">
+    <title>문의하기 - 오늘 뭐 먹지?</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7291943878932355"
+     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="/" class="logo">오늘 뭐 먹지?</a>
+            <nav class="main-nav">
+                <button class="nav-toggle" aria-label="메뉴 열기">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="/">홈</a></li>
+                    <li><a href="/articles/korean-food-guide.html">한식 가이드</a></li>
+                    <li><a href="/articles/seasonal-food.html">제철 음식</a></li>
+                    <li><a href="/articles/healthy-eating.html">건강한 식단</a></li>
+                    <li><a href="/about.html">소개</a></li>
+                    <li><a href="/contact.html" class="active">문의</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="article-page">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="/">홈</a> &gt; <span>문의하기</span>
+            </div>
+
+            <article class="article-content">
+                <h1>문의하기</h1>
+
+                <div class="article-intro">
+                    <p>사이트 이용 중 궁금한 점이나 제안 사항이 있으시면 아래 양식을 통해 연락해 주세요. 빠른 시일 내에 답변드리겠습니다.</p>
+                </div>
+
+                <section>
+                    <h2>문의 양식</h2>
+                    <form class="contact-form" action="https://formspree.io/f/xpwzgbvj" method="POST">
+                        <div class="form-group">
+                            <label for="name">이름</label>
+                            <input type="text" id="name" name="name" required placeholder="이름을 입력하세요">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">이메일</label>
+                            <input type="email" id="email" name="email" required placeholder="이메일 주소를 입력하세요">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">문의 유형</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">선택해주세요</option>
+                                <option value="일반 문의">일반 문의</option>
+                                <option value="콘텐츠 제안">콘텐츠 제안</option>
+                                <option value="오류 신고">오류 신고</option>
+                                <option value="제휴 문의">제휴 문의</option>
+                                <option value="기타">기타</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">문의 내용</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="문의 내용을 입력하세요"></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">문의 보내기</button>
+                    </form>
+                </section>
+
+                <section>
+                    <h2>자주 묻는 질문</h2>
+
+                    <div class="faq-item">
+                        <h3>룰렛 결과가 마음에 들지 않으면 어떻게 하나요?</h3>
+                        <p>룰렛은 재미를 위한 도구입니다. 결과가 마음에 들지 않으면 다시 돌려보세요! 최종 결정은 항상 본인의 몫입니다.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>콘텐츠에 오류가 있는 것 같아요.</h3>
+                        <p>위 문의 양식의 "오류 신고"를 통해 알려주세요. 확인 후 빠르게 수정하겠습니다.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>특정 메뉴나 음식에 대한 정보를 추가해주실 수 있나요?</h3>
+                        <p>"콘텐츠 제안"을 통해 원하시는 주제를 알려주세요. 검토 후 콘텐츠에 반영하겠습니다.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>광고 관련 문의는 어떻게 하나요?</h3>
+                        <p>"제휴 문의"를 선택하여 문의해 주세요. 광고 및 제휴 관련 문의를 환영합니다.</p>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-section">
+                <h4>오늘 뭐 먹지?</h4>
+                <p>매일의 메뉴 고민을 해결하고, 더 나은 식사를 위한 정보를 제공합니다.</p>
+            </div>
+            <div class="footer-section">
+                <h4>콘텐츠</h4>
+                <ul>
+                    <li><a href="/articles/korean-food-guide.html">한식 가이드</a></li>
+                    <li><a href="/articles/seasonal-food.html">제철 음식</a></li>
+                    <li><a href="/articles/healthy-eating.html">건강한 식단</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>사이트 정보</h4>
+                <ul>
+                    <li><a href="/about.html">소개</a></li>
+                    <li><a href="/contact.html">문의</a></li>
+                    <li><a href="/privacy.html">개인정보처리방침</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 오늘 뭐 먹지? All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/main.js"></script>
+</body>
+</html>
