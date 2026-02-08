@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://first-1-21774132-504be.web.app/sitemap.xml
