@@ -1,23 +1,52 @@
 
-# Dinner Menu Recommendation
+# Blueprint: Interactive Roulette Wheel
 
-## Overview
+## **1. Overview**
 
-This is a simple web application that recommends a random dinner menu. It's built using modern web standards, including HTML, CSS, and JavaScript, with a focus on creating a clean, interactive, and visually appealing user experience.
+This document outlines the plan for creating a dynamic, visually engaging, and interactive roulette wheel web application. The goal is to replace the current static page with a fun, single-page game that works beautifully on both desktop and mobile devices.
 
-## Design and Features
+---
 
-*   **Modern Aesthetics:** The application features a clean and modern design with a subtle noise texture background, a vibrant color palette, and multi-layered drop shadows to create a sense of depth.
-*   **Interactive Elements:** Interactive elements like the "Recommend" button have a "glow" effect on hover to provide visual feedback.
-*   **Responsive Design:** The layout is fully responsive and adapts to different screen sizes, ensuring a seamless experience on both mobile and desktop devices.
-*   **CSS Variables:** The design utilizes CSS variables for easy theming and maintenance.
-*   **Animations:** The recommended menu fades in for a more engaging user experience.
+## **2. Core Features & Design**
 
-## Current Plan
+The application will be built from the ground up with a focus on modern design and a great user experience.
 
-*   **HTML Structure:** Update the HTML to create a dinner menu recommender, including a title, a container for the recommender, a button to recommend a menu, and a place to display the result.
-*   **CSS Styling:** Adjust the styling for the new menu recommender.
-*   **JavaScript Logic:** Implement the JavaScript logic to randomly pick a dinner menu and display it.
-*   **GitHub Deployment:** Commit the changes and prepare for deployment.
-*   **Formspree Integration:** Add an affiliate inquiry form using Formspree to `index.html`.
-*   **Disqus Comments:** Integrate Disqus comment section into `index.html`.
+### **Design Principles**
+
+-   **Visual Appeal:** A bold and vibrant color palette will be used. The design will incorporate depth using multi-layered drop shadows and a subtle noise texture for the background to create a premium feel.
+-   **Interactivity:** The roulette wheel and button will feature smooth animations and "glow" effects on interaction to make the experience feel responsive and satisfying.
+-   **Typography:** Expressive fonts will be used to create a clear hierarchy, with large, impactful text for results and calls to action.
+-   **Responsiveness:** The layout will be fully responsive, ensuring a seamless experience on all screen sizes.
+
+### **Functionality**
+
+-   **Interactive Roulette Wheel:** A circular wheel divided into multiple colored segments, each with a value.
+-   **Spin Button:** A clear, clickable button to initiate the spinning animation.
+-   **Randomized Results:** The wheel will spin for a few seconds and land on a random segment.
+-   **Result Display:** The winning value will be clearly displayed to the user after the wheel stops.
+
+---
+
+## **3. Project Plan (Current Task)**
+
+This section details the steps for the initial creation of the roulette wheel application.
+
+1.  **[COMPLETED] Blueprint Creation:** Document the project overview, features, and development plan in this `blueprint.md` file.
+2.  **[ACTIVE] HTML Structure (`index.html`):**
+    *   Clear the existing content.
+    *   Create a main container for the application.
+    *   Build the structure for the roulette wheel, the pointer, the spin button, and the result display area.
+    *   Link the `style.css` and `main.js` files.
+3.  **[PENDING] Styling (`style.css`):**
+    *   Implement the modern design aesthetic described above.
+    *   Style the roulette wheel using `conic-gradient` for the segments.
+    *   Add animations for the spinning motion.
+    *   Style the interactive elements like the button with hover and active states.
+4.  **[PENDING] Logic (`main.js`):**
+    *   Implement the core game logic.
+    *   Add an event listener to the "Spin" button.
+    *   Develop the function to calculate a random spin result and animate the wheel.
+    *   Update the DOM to display the result when the spin is complete.
+5.  **[PENDING] Deployment:**
+    *   Deploy the completed roulette application to Firebase Hosting.
+    *   Verify that the site is live and functioning correctly.
