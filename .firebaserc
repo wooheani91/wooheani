@@ -1,5 +1,7 @@
 {
-  "projects": {},
+  "projects": {
+    "default": "first-1-21774132-504be"
+  },
   "targets": {},
   "etags": {}
 }

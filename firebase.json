@@ -3,8 +3,15 @@
     "public": ".",
     "ignore": [
       "firebase.json",
+      ".firebaserc",
       "**/.*",
-      "**/node_modules/**"
+      "**/node_modules/**",
+      "blueprint.md",
+      "GEMINI.md",
+      "README.md",
+      "install.cmd",
+      "wrangler.toml",
+      "firebase-debug.log"
     ]
   }
 }

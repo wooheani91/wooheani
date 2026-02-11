@@ -553,6 +553,77 @@ ul {
     font-size: 1.05rem;
 }
 
+/* === Share Buttons === */
+.share-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.share-label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.share-btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.share-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: #fff;
+}
+
+.share-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.share-btn:active {
+    transform: translateY(0);
+}
+
+.share-btn.kakao {
+    background: #FEE500;
+    color: #3C1E1E;
+}
+
+.share-btn.twitter {
+    background: #000;
+}
+
+.share-btn.facebook {
+    background: #1877F2;
+}
+
+.share-btn.line {
+    background: #06C755;
+}
+
+.share-btn.copy-url {
+    background: #666;
+}
+
+.page-share-section {
+    padding: 50px 0;
+    background: #fff8e1;
+    text-align: center;
+}
+
 /* === Footer === */
 .site-footer {
     background: #333;

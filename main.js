@@ -99,8 +99,95 @@ if (wheel && spinBtn) {
             resultDesc.className = 'result-sub';
             resultDesc.textContent = selected.desc;
             resultDiv.appendChild(resultDesc);
+
+            // Show share buttons after result
+            if (shareButtons) {
+                shareButtons.style.display = 'block';
+            }
         }, 5000);
     });
+}
+
+// SNS Share functions
+var siteUrl = 'https://first-1-21774132-504be.web.app/';
+var siteTitle = '오늘 뭐 먹지? - 메뉴 추천 룰렛';
+var siteDesc = '매일 고민되는 메뉴 선택! 룰렛으로 오늘의 메뉴를 정해보세요.';
+
+function shareToKakao(text) {
+    var msg = text || siteTitle + ' - ' + siteDesc;
+    var kakaoUrl = 'https://sharer.kakao.com/talk/friends/picker/link?url=' + encodeURIComponent(siteUrl) + '&text=' + encodeURIComponent(msg);
+    window.open(kakaoUrl, '_blank', 'width=600,height=400');
+}
+
+function shareToTwitter(text) {
+    var msg = text || siteTitle + '\n' + siteDesc;
+    var twitterUrl = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(msg) + '&url=' + encodeURIComponent(siteUrl);
+    window.open(twitterUrl, '_blank', 'width=600,height=400');
+}
+
+function shareToFacebook() {
+    var fbUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(siteUrl);
+    window.open(fbUrl, '_blank', 'width=600,height=400');
+}
+
+function shareToLine(text) {
+    var msg = text || siteTitle + ' ' + siteUrl;
+    var lineUrl = 'https://social-plugins.line.me/lineit/share?url=' + encodeURIComponent(siteUrl) + '&text=' + encodeURIComponent(msg);
+    window.open(lineUrl, '_blank', 'width=600,height=400');
+}
+
+function copyUrlToClipboard(text) {
+    var copyText = text || siteUrl;
+    navigator.clipboard.writeText(copyText).then(function() {
+        alert('URL이 복사되었습니다!');
+    }).catch(function() {
+        // fallback
+        var textarea = document.createElement('textarea');
+        textarea.value = copyText;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+        alert('URL이 복사되었습니다!');
+    });
+}
+
+// Roulette result share buttons
+var shareButtons = document.getElementById('share-buttons');
+if (shareButtons) {
+    document.getElementById('share-kakao').addEventListener('click', function() {
+        var resultText = document.querySelector('#result p');
+        var msg = resultText ? resultText.textContent + ' - 오늘 뭐 먹지?' : siteTitle;
+        shareToKakao(msg);
+    });
+    document.getElementById('share-twitter').addEventListener('click', function() {
+        var resultText = document.querySelector('#result p');
+        var msg = resultText ? resultText.textContent + '\n오늘 뭐 먹지? 룰렛으로 정했어요!' : siteTitle;
+        shareToTwitter(msg);
+    });
+    document.getElementById('share-facebook').addEventListener('click', function() {
+        shareToFacebook();
+    });
+    document.getElementById('share-line').addEventListener('click', function() {
+        var resultText = document.querySelector('#result p');
+        var msg = resultText ? resultText.textContent + ' - 오늘 뭐 먹지?' : siteTitle;
+        shareToLine(msg);
+    });
+    document.getElementById('share-copy').addEventListener('click', function() {
+        var resultText = document.querySelector('#result p');
+        var msg = resultText ? resultText.textContent + ' ' + siteUrl : siteUrl;
+        copyUrlToClipboard(msg);
+    });
+}
+
+// Page share buttons
+var pageShareKakao = document.getElementById('page-share-kakao');
+if (pageShareKakao) {
+    pageShareKakao.addEventListener('click', function() { shareToKakao(); });
+    document.getElementById('page-share-twitter').addEventListener('click', function() { shareToTwitter(); });
+    document.getElementById('page-share-facebook').addEventListener('click', function() { shareToFacebook(); });
+    document.getElementById('page-share-line').addEventListener('click', function() { shareToLine(); });
+    document.getElementById('page-share-copy').addEventListener('click', function() { copyUrlToClipboard(); });
 }
 
 // Mobile navigation toggle
