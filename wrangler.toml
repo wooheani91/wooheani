@@ -1,4 +1,5 @@
 name = "wooheani"
+main = "workers-site/index.js"
 compatibility_date = "2024-06-03"
 
 [site]

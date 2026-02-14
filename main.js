@@ -109,7 +109,7 @@ if (wheel && spinBtn) {
 }
 
 // SNS Share functions
-var siteUrl = 'https://first-1-21774132-504be.web.app/';
+var siteUrl = 'https://woohyun.work/';
 var siteTitle = '오늘 뭐 먹지? - 메뉴 추천 룰렛';
 var siteDesc = '매일 고민되는 메뉴 선택! 룰렛으로 오늘의 메뉴를 정해보세요.';
 
