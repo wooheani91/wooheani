@@ -2,43 +2,91 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://first-1-21774132-504be.web.app/</loc>
-    <lastmod>2026-02-08</lastmod>
+    <lastmod>2026-02-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://first-1-21774132-504be.web.app/articles/korean-food-guide.html</loc>
-    <lastmod>2026-02-08</lastmod>
+    <lastmod>2026-02-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://first-1-21774132-504be.web.app/articles/japanese-food-guide.html</loc>
+    <lastmod>2026-02-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://first-1-21774132-504be.web.app/articles/chinese-food-guide.html</loc>
+    <lastmod>2026-02-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://first-1-21774132-504be.web.app/articles/western-food-guide.html</loc>
+    <lastmod>2026-02-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://first-1-21774132-504be.web.app/articles/seasonal-food.html</loc>
-    <lastmod>2026-02-08</lastmod>
+    <lastmod>2026-02-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://first-1-21774132-504be.web.app/articles/healthy-eating.html</loc>
-    <lastmod>2026-02-08</lastmod>
+    <lastmod>2026-02-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://first-1-21774132-504be.web.app/articles/solo-dining-guide.html</loc>
+    <lastmod>2026-02-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://first-1-21774132-504be.web.app/articles/quick-cooking-guide.html</loc>
+    <lastmod>2026-02-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://first-1-21774132-504be.web.app/articles/food-pairing-guide.html</loc>
+    <lastmod>2026-02-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://first-1-21774132-504be.web.app/articles/lunch-box-guide.html</loc>
+    <lastmod>2026-02-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://first-1-21774132-504be.web.app/about.html</loc>
-    <lastmod>2026-02-08</lastmod>
+    <lastmod>2026-02-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://first-1-21774132-504be.web.app/contact.html</loc>
-    <lastmod>2026-02-08</lastmod>
+    <lastmod>2026-02-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://first-1-21774132-504be.web.app/privacy.html</loc>
-    <lastmod>2026-02-08</lastmod>
+    <lastmod>2026-02-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://first-1-21774132-504be.web.app/terms.html</loc>
+    <lastmod>2026-02-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
