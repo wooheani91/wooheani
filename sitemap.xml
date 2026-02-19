@@ -2,199 +2,205 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://woohyun.work/</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2026-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://woohyun.work/articles/</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://woohyun.work/articles/korean-food-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2025-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/japanese-food-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2025-09-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/chinese-food-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2025-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/western-food-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2025-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/asian-food-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/seasonal-food.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2025-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/healthy-eating.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2025-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/solo-dining-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/quick-cooking-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/food-pairing-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2025-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/lunch-box-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/breakfast-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2025-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/snack-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2026-01-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/street-food-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2026-02-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/dessert-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2026-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/drink-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2026-01-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/cooking-basics.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2025-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/food-storage-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2025-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/hangover-food-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2025-12-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/late-night-food-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2025-12-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/budget-meal-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/date-restaurant-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/camping-food-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/vegetarian-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2026-01-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/spicy-food-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2026-02-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/noodle-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2025-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/soup-stew-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2025-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/diet-food-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2026-01-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/kids-meal-guide.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2026-01-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/articles/restaurant-etiquette.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://woohyun.work/about.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2026-02-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://woohyun.work/contact.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2026-02-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
